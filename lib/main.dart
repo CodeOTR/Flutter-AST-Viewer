@@ -86,10 +86,10 @@ class _MainAppState extends State<MainApp> {
                             MapEntry<String, dynamic> entry = searchMap.entries.elementAt(index);
                             return ListTile(
                               leading: CircleAvatar(
-                                child: Text(entry.key[0]),
+                                child: Text(entry.value[0]),
                               ),
-                              title: Text(entry.key),
-                              subtitle: Text(entry.value.toString()),
+                              title: Text(entry.value),
+                              subtitle: Text(entry.key.toString()),
                             );
                           },
                         ),

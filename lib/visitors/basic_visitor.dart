@@ -1065,8 +1065,8 @@ class BasicVisitor extends RecursiveAstVisitor {
   }
 
   void addAstNode(String text) {
-    String key = text.split(':').first;
-    String value = text.split(':').skip(1).join(':');
+    String value = text.split(':').first;
+    String key = text.split(':').skip(1).join(':');
     astMap[key] = value;
   }
 }
