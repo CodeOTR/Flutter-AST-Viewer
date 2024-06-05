@@ -43,6 +43,9 @@ class _MainAppState extends State<MainApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+          appBar: AppBar(
+            title: const Text('Flutter & Dart AST Viewer'),
+          ),
           body: Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -74,7 +77,11 @@ class _MainAppState extends State<MainApp> {
                         onChanged: (value) {
                           setState(() {
                             searchMap = Map.fromEntries(
-                              astMap.entries.where((element) => element.key.toLowerCase().contains(value.toLowerCase()) || element.value.toLowerCase().contains(value.toLowerCase())).toList(),
+                              astMap.entries
+                                  .where((element) =>
+                                      element.key.toLowerCase().contains(value.toLowerCase()) ||
+                                      element.value.toLowerCase().contains(value.toLowerCase()))
+                                  .toList(),
                             );
                           });
                         },
