@@ -1,6 +1,6 @@
 {
   "projects": {
-    "default": "flutter-ast-viewer"
+    "default": "flutter-fast"
   },
   "targets": {
     "flutter-fast": {

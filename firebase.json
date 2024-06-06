@@ -1,7 +1,7 @@
 {
   "hosting": {
-    "target": "flutter-ast-viewer",
-    "public": ".",
+    "site": "flutter-ast-viewer",
+    "source": ".",
     "ignore": [
       "firebase.json",
       "**/.*",
