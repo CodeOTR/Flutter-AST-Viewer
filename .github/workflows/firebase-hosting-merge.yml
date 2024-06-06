@@ -23,5 +23,3 @@ jobs:
           channelId: live
           projectId: flutter-fast
           target: flutter-ast-viewer
-        env:
-          FIREBASE_CLI_EXPERIMENTS: webframeworks  
