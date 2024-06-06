@@ -1,7 +1,6 @@
 {
   "hosting": {
     "target": "ast",
-    "site": ".",
     "ignore": [
       "firebase.json",
       "**/.*",
