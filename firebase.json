@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "site": "flutter-ast-viewer",
     "public": "build/web",
     "source": ".",
     "ignore": [
