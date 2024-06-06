@@ -1,5 +1,16 @@
 {
   "projects": {
     "default": "flutter-ast-viewer"
-  }
+  },
+  "targets": {
+    "flutter-fast": {
+      "hosting": {
+        "ast": [
+          "flutter-ast-viewer"
+        ]
+      }
+    }
+  },
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
